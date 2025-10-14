@@ -58,3 +58,4 @@ RUN git clone https://github.com/microsoft/vcpkg.git /home/builder/vcpkg \
 
 # Preconfigure environment variables for vcpkg
 ENV PATH="/home/builder/vcpkg:${PATH}"
+ENV VCPKG_ROOT="/home/builder/vcpkg"
